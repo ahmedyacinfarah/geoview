@@ -103,13 +103,8 @@
   "theme": "geo.ca",
   "footerBar": {
     "tabs": {
-      "core": ["legend", "layers", "details", "geochart","geoview-footer-custom-legend-panel"]
+      "core": ["legend", "layers", "details", "geochart"]
     }
   },
-  "corePackages": [],
-  "appBar": {
-    "tabs": {
-      "core": ["aoi-panel", "geochart"]
-    }
-  }
+  "corePackages": []
 }
