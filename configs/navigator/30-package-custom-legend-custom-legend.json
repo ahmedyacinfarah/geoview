@@ -2,11 +2,10 @@
   "isOpen": true,
   "legendList": [
     {
-      
-      "legendTitle": "custom legend"
-      
+      "legendTitle": "My Legend Item",
+      "content": "Custom Legend Text",
+      "extent": []
     }
-    
   ],
   "version": "1.0"
 }
