@@ -12,22 +12,10 @@
   },
   "theme": "geo.ca",
   "components": ["north-arrow", "overview-map"],
-  "corePackages": [
-    {
-      "id": "custom-legend",
-      "config": {
-        "isOpen": true
-      }
-    }
-  ],
-  "footerBar": {
-    "tabs": {
-      "core": ["legend", "layers", "details", "data-table"]
-    }
-  },
+  "corePackages": [],
   "appBar": {
     "tabs": {
       "core": ["custom-legend"]
     }
   }
-}                                                       
+}

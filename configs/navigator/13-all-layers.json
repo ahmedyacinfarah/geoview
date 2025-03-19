@@ -163,21 +163,6 @@
         ]
       },
       {
-        "geoviewLayerId": "GeoPackageLYR1",
-        "geoviewLayerName": "Natural Earth",
-        "metadataAccessPath": "./datasets/geopackages/",
-        "geoviewLayerType": "GeoPackage",
-        "listOfLayerEntryConfig": [
-          {
-            "layerId": "Natural_Earth_QGIS_layers_and_styles.gpkg",
-            "source": {
-              "dataAccessPath": "./datasets/geopackages"
-            },
-            "layerName": "Natural Earth"
-          }
-        ]
-      },
-      {
         "geoviewLayerId": "xyzTilesLYR1",
         "geoviewLayerName": "World_Topo_Map",
         "metadataAccessPath": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/",
@@ -198,14 +183,15 @@
         "listOfLayerEntryConfig": [
           {
             "layerId": "CBMT_CBCT_3978_V_OSM",
-            "layerName": "Tile basemap",
+            "layerName": "Vector Tile basemap - French Style",
+            "styleUrl": "https://nrcan-rncan.maps.arcgis.com/sharing/rest/content/items/88ad9e2ef6e040a19472985e6606a2f9/resources/styles/root.json",
             "initialSettings": { "minZoom": 3, "maxZoom": 18 }
           }
         ]
       }
     ]
   },
-  "components": ["overview-map"],
+  "components": ["overview-map", "north-arrow"],
   "overviewMap": { "hideOnZoom": 7 },
   "footerBar": {
     "tabs": {
